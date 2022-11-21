@@ -12,3 +12,20 @@ function outer(){
 
 outer()
 
+
+function hoistingDemo()
+{
+    a = 10;
+    console.log(b);
+    c++;
+
+    var a;
+    var b;
+    var c;
+    
+
+    
+}
+
+hoistingDemo();
+
