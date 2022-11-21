@@ -35,11 +35,22 @@ console.log(myArray)
 
 var arr = [10,20,30,"hello",{}];
 
-var myFunction = function(item){
-    console.log("The element is : "+item);
+var myFunction = function(item,index){
+    console.log();("The element is : "+item+ " at Index : "+index);
 }
 
 arr.forEach(myFunction);
+
+
+var a = 10;
+function newFunction(){
+    var b = a;
+    console.log(a);
+    c = 1000;
+}
+
+newFunction();
+console.log(c);
 
 
 
