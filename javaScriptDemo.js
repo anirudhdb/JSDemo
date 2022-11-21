@@ -15,5 +15,10 @@ var obj = {
     }
 }
 
-console.log(obj);
+var myState = "Karnataka";
+
+if(myState === obj.address.state)
+{
+    console.log("States are equal");
+}
 
