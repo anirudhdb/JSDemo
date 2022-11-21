@@ -12,3 +12,5 @@ function outer(){
 
 outer()
 
+console.log("hi");
+
