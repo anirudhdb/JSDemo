@@ -33,6 +33,15 @@ myArray.unshift("new")
 console.log(myArray)
 
 
+var arr = [10,20,30,"hello",{}];
+
+var myFunction = function(item){
+    console.log("The element is : "+item);
+}
+
+arr.forEach(myFunction);
+
+
 
 
 
