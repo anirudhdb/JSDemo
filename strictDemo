@@ -1,0 +1,7 @@
+"strict mode";
+
+var myName = "";
+
+myname = "Anirudh";
+
+console.log(myname);

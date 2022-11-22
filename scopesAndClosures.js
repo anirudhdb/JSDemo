@@ -12,5 +12,9 @@ function outer(){
 
 outer()
 
-console.log("hi");
 
+function strictFunction(){
+    "use strict";
+
+    varibale = 100;
+}
