@@ -8,3 +8,5 @@ console.log(a)
 
  setTimeout(fn, 2000)
 
+ console.log("Done");
+
