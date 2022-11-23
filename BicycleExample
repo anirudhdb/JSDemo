@@ -1,0 +1,25 @@
+var bicycle =  createBicycle(50,20,1);
+
+
+function createBicycle(cadence, speed, gear)
+{
+    var newBicycle = {};
+    newBicycle.cadence = cadence;
+    newBicycle.speed = speed;
+    newBicycle.gear = gear;
+    return newBicycle; 
+}
+
+//console.log(bicycle);
+
+
+function Bicycle(cadence, speed, gear)
+{
+    this.cadence = cadence;
+    this.speed = speed;
+    this.gear = gear;
+
+}
+
+var bicycle3 =   new Bicycle(10,11,12);
+console.log(bicycle3);
