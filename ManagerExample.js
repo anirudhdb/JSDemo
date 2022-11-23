@@ -29,4 +29,5 @@ Employee.prototype.getSalary = function(){
 
 console.log(emp1.getSalary());
 console.log(mgr.getSalary());
+console.log("Done");
 
