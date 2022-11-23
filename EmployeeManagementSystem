@@ -1,0 +1,20 @@
+var emp1 = {};
+emp1.firstName = "Anirudh";
+emp1.lastName = "Bhargav";
+emp1.gernder = "M";
+emp1.designation = "Regional Manager";
+
+function createEmployeeObject(firstName, lastName, gender, designation){
+    var newObj = {};
+    newObj.fistName = firstName;
+    newObj.lastName = lastName;
+    newObj.gender = gender;
+    newObj.designation = designation;
+    return newObj;
+
+}
+
+var emp3 = createEmployeeObject("Krishna", "Bhargav", "M", "Manager");
+
+console.log(emp3);
+
