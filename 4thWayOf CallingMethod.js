@@ -28,5 +28,7 @@ mike.inflateTirePressure = bicycle2.inflateTirePressure;
 mike.inflateTirePressure.call(bicycle2);
 console.log(bicycle2);
 
+console.log(mike);
+
 
 
