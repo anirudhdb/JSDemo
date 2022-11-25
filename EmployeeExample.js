@@ -14,3 +14,4 @@ emp2.playPrank();
 
 var proto = Employee.prototype;
 console.log(proto.constructor);
+
